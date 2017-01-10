@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "Lotto\Lotto.csproj", "{5D1945EF-9483-403B-95C3-64534D30D6FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus1", "Harjoitus1\Harjoitus1.csproj", "{FE717739-C097-4A30-AAFF-0B3125F7E285}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D1945EF-9483-403B-95C3-64534D30D6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D1945EF-9483-403B-95C3-64534D30D6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D1945EF-9483-403B-95C3-64534D30D6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
