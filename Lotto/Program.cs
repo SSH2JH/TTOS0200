@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+ * Tekijä: Juuso Huppunen
+ * AsioID: K8960
+ * Kurssi: TTOS0200
+ * Kuvaus:
+ *		Luo ohjelma, randomoi 7 uniikkia
+ *		lukua 40:stä vaihtoehdosta.
+ *		Anna käyttäjälle myös mahdollisuus
+ *		valita kuinka monta lottoriviä arvotaan
+ * Pvm: 10.1.2016 
+ */
+
+
+using System;
 using System.Linq;
 
 namespace Lotto {
@@ -13,7 +26,7 @@ namespace Lotto {
 			int tmp;
 
 			// Kyselee käyttäjältä rivien määrän
-			Console.Write("How many lotto lines you wish to print (enter a number)>");
+			Console.Write("How many lotto lines you wish to print (enter a number) >");
 			int b = int.Parse(Console.ReadLine());
 			int c = 0;
 
