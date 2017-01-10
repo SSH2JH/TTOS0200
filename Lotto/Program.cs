@@ -17,6 +17,7 @@ namespace Lotto {
 			int b = int.Parse(Console.ReadLine());
 			int c = 0;
 
+			// Pääsilmukka joka suoriutuu haluttujen rivien määrän avulla
 			while (c <= b) {
 				// Aloittaa Numbers taulukon arvot
 				for (int i = 0; i < Numbers.Length; i++) {
