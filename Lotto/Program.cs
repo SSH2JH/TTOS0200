@@ -26,7 +26,7 @@ namespace Lotto {
 				// Täällä hoituu randomointi
 				for (int i = 0; i < a; i++) {
 					tmp = rnd.Next(Numbers[39]); // Asettaa randomoitu luku tmp-muuttujaan
-												 // Mikäli randomoitu liku toistuu voittonumerot taulukossa se randoidaan uudestaan
+					// Mikäli randomoitu liku toistuu voittonumerot taulukossa se randoidaan uudestaan
 					if (WinNumbers.Contains(tmp)) {
 						i--;
 					} else {
