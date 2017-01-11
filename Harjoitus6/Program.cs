@@ -15,22 +15,20 @@
  */
 
 using System;
-/*using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;*/
 
 namespace Harjoitus6 {
 	class Program {
 		static void Main(string[] args)
 		{
+			// Kysyy matkan käyttäjältä
 			Console.Write("Please enter the distance (km) >");
 			int Distance = int.Parse(Console.ReadLine());
-			int stuff;
+			// Laskee kulutuksen valmiiksi
+			double FuelLoss;
+			FuelLoss = Distance * 0.0702;			
 
-			
-
-			Console.WriteLine();
+			// Tulostaa vaaditut arvot kahden desimaalin tarkkuudella
+			Console.WriteLine("You consumed {0:0.00} litres of fuel and it was worth {1:0.00} euroa", FuelLoss, (FuelLoss * 1.595));
 		}
 	}
 }
