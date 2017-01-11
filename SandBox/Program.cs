@@ -6,7 +6,7 @@ namespace SandBox
 	{
 		static void Main(string[] args)
 		{
-			// Laskutoimituksia taulokon arvoilla
+			// Laskutoimituksia taulokon arvoilla 
 			Calculations();
 			// Array of string
 			ShowNames();
