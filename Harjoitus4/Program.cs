@@ -29,7 +29,6 @@ namespace Harjoitus4 {
 				Console.WriteLine("You are an adult!");
 			} else { // Käyttäjä on 65 tai vanhempi
 				Console.WriteLine("You are senior citizen!");
-
 			}
 		}
 	}
