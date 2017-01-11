@@ -23,6 +23,7 @@ namespace Harjoitus6 {
 			// Kysyy matkan käyttäjältä
 			Console.Write("Please enter the distance (km) >");
 			int Distance = int.Parse(Console.ReadLine());
+
 			// Laskee kulutuksen valmiiksi
 			double FuelLoss;
 			FuelLoss = Distance * 0.0702;			
