@@ -2,7 +2,7 @@
  * Tekijä: Juuso Huppunen
  * AsioID: K8960
  * Kurssi: TTOS0200
- * Harjoitus: Tehtävä 5
+ * Harjoitus: Tehtävä 6
  * Kuvaus:
  *		Auton kulutus on 7.02 litraa 100 kilometrin matkalla ja bensan hinta on 1.595 Euroa.
  *		Tee ohjelma, joka tulostaa ajetulla matkalla (kysytään käyttäjältä) kuluvan bensan määrän
