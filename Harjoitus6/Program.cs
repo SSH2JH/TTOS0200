@@ -11,7 +11,7 @@
  *		Esimerkkitoiminta:
  *			Anna matka > 250 [Enter]
  *			Bensaa kuluu 17,55 litraa, kustannus 27,99 euroa
- * Pvm: 11.1.2016 
+ * Pvm: 11.1.2017
  */
 
 using System;

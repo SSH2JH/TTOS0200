@@ -11,7 +11,7 @@
  *		Kuitenkin 400:lla jaolliset vuosisadat ovat
  *		
  *		Esim. 1991 -> ei, 1992 -> on, 1900 -> ei, 2000 -> on
- * Pvm: 11.1.2016 
+ * Pvm: 11.1.2017
  */
 
 using System;

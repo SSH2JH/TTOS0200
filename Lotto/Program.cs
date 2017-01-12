@@ -7,7 +7,7 @@
  *		lukua 40:stä vaihtoehdosta.
  *		Anna käyttäjälle myös mahdollisuus
  *		valita kuinka monta lottoriviä arvotaan
- * Pvm: 10.1.2016 
+ * Pvm: 10.1.2017
  */
 
 

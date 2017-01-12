@@ -8,7 +8,7 @@
  *		taulukon arvot = [1,2,33,44,55,68,77,96,100].
  *		Käy sovelluksessa taulukko läpi ja tulosta ruutuun "HEP"-sana
  *		aina kun taulukossa oleva luku on parillinen.
- * Pvm: 12.1.2016 
+ * Pvm: 12.1.2017
  */
 
 using System;

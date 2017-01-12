@@ -6,7 +6,7 @@
  * Kuvaus:
  *		Tee ohjelma, joka kysyy käyttäjältä kolme lukua ja
  *		tulostaa niiden summan ja keskiarvon.
- * Pvm: 10.1.2016 
+ * Pvm: 10.1.2017
  */
 
 using System;

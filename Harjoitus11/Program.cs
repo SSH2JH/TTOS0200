@@ -14,7 +14,7 @@
  *		
  *		Käyttäjä antaa syötteenä tähtirivien lukumäärän.
  *		Yllä olevassa esimerkissä käyttäjä on syöttänyt luvun 5.
- * Pvm: 12.1.2016 
+ * Pvm: 12.1.2017
  */
 
 using System;

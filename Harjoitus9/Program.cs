@@ -14,7 +14,7 @@
  *		Anna Luku > 0 [Enter]
  *		
  *		Lukujen summa on 60
- * Pvm: 12.1.2016 
+ * Pvm: 12.1.2017
  */
 
 using System;

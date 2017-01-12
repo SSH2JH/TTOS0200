@@ -15,7 +15,7 @@
  *		Anna pisteet > 19 [Enter]
  *		Anna pisteet > 17 [Enter]
  *		Kokonaispisteet ovat 54
- * Pvm: 12.1.2016 
+ * Pvm: 12.1.2017
  */
 
 using System;

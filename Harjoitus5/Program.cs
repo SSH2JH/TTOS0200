@@ -7,7 +7,7 @@
  *		Tee ohjelma, joka näyttää annetun sekuntimäärän tunteina,
  *		minuutteina ja sekunteina. Aikamääre sekuntteina kysytään käyttäjältä
  *		esim: 3661s -> Antamasi sekunttiaika voidaan ilmaista muodossa: 1 tunti 1 minuutti 1 sekuntti
- * Pvm: 11.1.2016 
+ * Pvm: 11.1.2017
  */
 
 

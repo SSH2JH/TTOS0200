@@ -8,7 +8,7 @@
  *		vastaavan luvun sanana (yksi, kaksi tai kolme).
  *		Jos käyttäjä syöttää jonkin muun luvun, tulee näytölle
  *		tulostaa teksti: "joku muu luku". 
- * Pvm: 10.1.2016 
+ * Pvm: 10.1.2017
  */
 
 using System;
