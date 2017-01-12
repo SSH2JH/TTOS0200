@@ -30,7 +30,7 @@ namespace Harjoitus7 {
 			 * siten että: kun vuosi on jaollinen neljällä mutta ei sadalla se on karkausvuosi
 			 * Se on karkausvuosi myös kun se on jaollinen luvulla 400
 			 */
-			if ((Year & 4) == 0 && (Year % 100) != 0 || (Year % 400 == 0)) {
+			if ((Year & 4) == 0 && (Year % 100) != 0 || (Year % 400) == 0) {
 				// On karkausvuosi
 				Console.WriteLine("{0} is a leap year!", Year);
 			} else {

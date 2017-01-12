@@ -15,14 +15,10 @@
  *		3:******
  *		4:*****
  *		5:** 
- * Pvm: 12.1.2016 
+ * Pvm: 12.1.2017
  */
 
 using System;
-/*using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;*/
 
 namespace Harjoitus14
 {
@@ -30,7 +26,84 @@ namespace Harjoitus14
 	{
 		static void Main(string[] args)
 		{
-			
+			// Luodaan tarvittavat muuttujat
+			int[] Grades = new int[5];
+			string Input;
+			int InputNumeric;
+			bool IsNumeric, IsStarted = false;
+
+			// Tulostetaan tyhjä tuloskenttä ja käyttöohjeet
+			DistributionPrinter(Grades, IsStarted);
+			PrintHelp();
+
+			// Ohjelman pääsilmukka
+			while (true) {
+				// Otetaan käyttäjän syöte vastaan merkkijonona
+				Console.Write("Please enter the grade (-2 for help page) >");
+				Input = Console.ReadLine();
+
+				// Testataan oliko käyttäjän syöte kokonaisluku
+				IsNumeric = int.TryParse(Input, out InputNumeric);
+
+				// Ainoastaan kokonaisluvut väliltä [-2, 5] hyväksytään. Kaikki muut arvot hylätään
+				if(IsNumeric == true && InputNumeric <=5 && InputNumeric >= -2) {
+					switch (InputNumeric) {
+						case -1:
+							// Ohjelman lopetuskäsky
+							Console.WriteLine("\nExiting...");
+							return;
+						case -2:
+							// Käyttöohjeet
+							PrintHelp();
+							break;
+						default:
+							/* 
+							 * Ohjelman päätarkoitus. Numero osoitetaan taulukon sitä vastaavaan lohkoon
+							 * ja sen lohkon arvoa lisätään yhdellä
+							 * Samalla määritetään ohjelman suoritus alkaneeksi
+							 */
+							Grades[InputNumeric - 1]++;
+							IsStarted = true;
+							// Täällä tulostetaan arvosanajakauma muutoksen jälkeen (eli kun IsStarted = true)
+							DistributionPrinter(Grades, IsStarted);
+							break;
+					}
+				} else {
+					// Yleinen virheviesti
+					Console.WriteLine("Invalid input!");
+				}
+			}
+		}
+		// Taulukon printtaus aliohjelma
+		static void DistributionPrinter(int[] Grades, bool IsStarted)
+		{
+			/*
+			 * Tulostetaan jakauma nested loopin avulla
+			 * Päälooppi tulostaa arvosanan arvon ja sisempi tulostaa
+			 * näille arvoille jakauman osumat
+			 */
+			Console.WriteLine("\n\nGrade distribution:");
+			for (int i = 0; i < 5; i++) {
+				Console.Write("{0}: ", (i+1));
+				/* 
+				 * Täällä tulostetaan * -merkit osoittamaan saatujen arvosanojen määrää
+				 * JOS ohjelmalle on syötetty ensimmäinen luku
+				*/
+				if(IsStarted == true) {
+					for(int j = 0; j < Grades[i]; j++) {
+						Console.Write("*");
+					}
+				}
+				Console.WriteLine();
+			}
+		}
+		// Aliohjelma printtaa ohjelman käyttöohjeet
+		static void PrintHelp()
+		{
+			Console.WriteLine("\nGuide for using this program:\n"
+				+ "\t-1 to exit.\n"
+				+ "\t-2 for this help page.\n"
+				+ "\t> Otherwise simply enter the grades\n");
 		}
 	}
 }
