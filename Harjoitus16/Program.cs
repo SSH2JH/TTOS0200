@@ -2,7 +2,7 @@
  * Tekijä: Juuso Huppunen
  * AsioID: K8960
  * Kurssi: TTOS0200
- * Harjoitus: Tehtävä 15 [NOT FINISHED]
+ * Harjoitus: Tehtävä 16
  * Kuvaus:
  *		Tee ohjelma, joka arpoo satunnaisluvun väliltä 0-100. Käytä C#:n Random -luokkaa.
  *		Tämän jälkeen ohjelman käyttäjää kehoitetaan arvaaman arvottu luku.
