@@ -2,7 +2,7 @@
  * Tekijä: Juuso Huppunen
  * AsioID: K8960
  * Kurssi: TTOS0200
- * Harjoitus: Tehtävä 15
+ * Harjoitus: Tehtävä 15 [NOT FINISHED]
  * Kuvaus:
  *		Tee ohjelma, joka tulostaa seuraavanlaisen kuvion.
  *		Kysy käyttäjältä puunkorkeus.
@@ -13,8 +13,9 @@
  *		   ***
  *		  *****
  *		 *******
- *		    *
- *		    *
+ *	    *********
+ *			*
+ *			*
  * Pvm: 12.1.2017
  */
 
@@ -28,7 +29,8 @@ namespace Harjoitus15 {
 	class Program {
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			int[] Number = { 0, 0, 0, 0, 0, 0, 0 };
+			Console.WriteLine(Number.Length);
 		}
 	}
 }
