@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus16", "Harjoitus16\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus17", "Harjoitus17\Harjoitus17.csproj", "{94ACE540-21AF-44C7-B2D8-3943CAFC0C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus18", "Harjoitus 18\Harjoitus18.csproj", "{6E909D53-AD46-47E8-A09B-9F01A1AE82A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus18", "Harjoitus18\Harjoitus18.csproj", "{6E909D53-AD46-47E8-A09B-9F01A1AE82A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus19", "Harjoitus19\Harjoitus19.csproj", "{97F94D5D-F88E-46B7-8FD3-BA8F0A91F96E}"
 EndProject
