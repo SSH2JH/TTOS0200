@@ -24,19 +24,19 @@ namespace Harjoitus9 {
 		static void Main(string[] args)
 		{
 			// Käyttäjältä kysytään ensimmäinen arvo
-			int Input, Sum = 0;
+			int input, sum = 0;
 			Console.Write("Please enter a number >");
-			Input = int.Parse(Console.ReadLine());
+			input = int.Parse(Console.ReadLine());
 			// Mikäli ensimmäinen arvo ei ole nolla siirrytään silmukkaan
-			while (Input != 0) {
-				Sum += Input; // Tässä käyttäjän antama arvo lisätään lopulliseen arvoon
+			while (input != 0) {
+				sum += input; // Tässä käyttäjän antama arvo lisätään lopulliseen arvoon
 
 				// Tässä arvo kysytään uudestaan
 				Console.Write("Please enter a number >");
-				Input = int.Parse(Console.ReadLine());
+				input = int.Parse(Console.ReadLine());
 			}
 			// Lopullisen arvon tulostus
-			Console.WriteLine("The sum of given numbers is: {0}", Sum);
+			Console.WriteLine("The sum of given numbers is: {0}", sum);
 		}
 	}
 }

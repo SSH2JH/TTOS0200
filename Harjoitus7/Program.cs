@@ -21,21 +21,21 @@ namespace Harjoitus7 {
 		static void Main(string[] args)
 		{
 			// Kysytään käyttäjältä vuosiluku
-			int Year;
+			int year;
 			Console.Write("Please enter a year >");
-			Year = int.Parse(Console.ReadLine());
+			year = int.Parse(Console.ReadLine());
 
 			/* 
 			 * Verrataan saatua vuosilukua jakojäännöksen avulla
 			 * siten että: kun vuosi on jaollinen neljällä mutta ei sadalla se on karkausvuosi
 			 * Se on karkausvuosi myös kun se on jaollinen luvulla 400
 			 */
-			if ((Year & 4) == 0 && (Year % 100) != 0 || (Year % 400) == 0) {
+			if ((year & 4) == 0 && (year % 100) != 0 || (year % 400) == 0) {
 				// On karkausvuosi
-				Console.WriteLine("{0} is a leap year!", Year);
+				Console.WriteLine("{0} is a leap year!", year);
 			} else {
 				// Ei ole karkausvuosi
-				Console.WriteLine("{0} is not a leap year!", Year);
+				Console.WriteLine("{0} is not a leap year!", year);
 			}
 		}
 	}

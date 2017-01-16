@@ -28,16 +28,16 @@ namespace Harjoitus13
 		static void Main(string[] args)
 		{
 			// Luodaan viiteen rajoitettu taulukko
-			int[] JudgedPoints = new int[5];
+			int[] judgedPoints = new int[5];
 
 			// Täytetään taulukko tuomarien arvoilla
 			for(int i = 0; i < 5; i++) {
 				Console.Write("Judge {0}, please enter your points >", (i + 1));
-				JudgedPoints[i] = int.Parse(Console.ReadLine());
+				judgedPoints[i] = int.Parse(Console.ReadLine());
 			}
 
 			// Tulostetaan summa
-			Console.WriteLine("Result is: {0}", JudgedPoints.Sum());
+			Console.WriteLine("Result is: {0}", judgedPoints.Sum());
 		}
 	}
 }

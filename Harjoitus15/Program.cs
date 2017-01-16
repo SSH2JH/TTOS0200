@@ -29,8 +29,8 @@ namespace Harjoitus15 {
 	class Program {
 		static void Main(string[] args)
 		{
-			int[] Number = { 0, 0, 0, 0, 0, 0, 0 };
-			Console.WriteLine(Number.Length);
+			int[] numbers = { 0, 0, 0, 0, 0, 0, 0 };
+			Console.WriteLine(numbers.Length);
 		}
 	}
 }

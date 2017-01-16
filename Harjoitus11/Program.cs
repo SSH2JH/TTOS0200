@@ -26,12 +26,12 @@ namespace Harjoitus11
 		static void Main(string[] args)
 		{
 			// Kysyy käyttäjältä luku
-			int Rounds;
+			int rounds;
 			Console.Write("Please enter a number >");
-			Rounds = int.Parse(Console.ReadLine());
+			rounds = int.Parse(Console.ReadLine());
 
 			// Pyöräyttää nested loop tekniikalla käyttäjän antaman luvun perusteella
-			for(int i = 0; i < (Rounds); i++) {
+			for(int i = 0; i < (rounds); i++) {
 				for(int j = 0; j < (i+1); j++) {
 					Console.Write("*"); // Tämä pyörähtää ylemmän silmukan kierrosten verran
 				}

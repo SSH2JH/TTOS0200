@@ -19,15 +19,15 @@ namespace Harjoitus3 {
 			 * Luodaan taulukko kysyttäville luvuille
 			 * ja kysytään käyttäjältä 3 arvoa
 			 */
-			int[] Numbers = new int[3];
+			int[] numbers = new int[3];
 			Console.WriteLine("Please enter three numbers");
 			for (int i = 0; i < 3; i++) {
 				Console.Write(">");
-				Numbers[i] = int.Parse(Console.ReadLine());
+				numbers[i] = int.Parse(Console.ReadLine());
 			}
 
 			// Sum
-			int Sum = Numbers[0] + Numbers[1] + Numbers[2];
+			int Sum = numbers[0] + numbers[1] + numbers[2];
 			// Average
 			int Average = Sum / 3;
 

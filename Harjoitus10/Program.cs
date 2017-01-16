@@ -20,15 +20,15 @@ namespace Harjoitus10
 		static void Main(string[] args)
 		{
 			// Asetetaan taulukko
-			int[] Numbers = new int[9] { 1, 2, 33, 44, 55, 68, 77, 96, 100 };
+			int[] numbers = new int[9] { 1, 2, 33, 44, 55, 68, 77, 96, 100 };
 			// Käydään taulukko läpi
 			for (int i = 0; i < 9; i++) {
-				if((Numbers[i] % 2) == 0) {
+				if((numbers[i] % 2) == 0) {
 					// Nyt taulukon arvo on jaollinen kahdella
 					Console.WriteLine("HEP");
 				} else {
 					// Täällä ei ole
-					Console.WriteLine(Numbers[i]);
+					Console.WriteLine(numbers[i]);
 				}
 			}
 		}

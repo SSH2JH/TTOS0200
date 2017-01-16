@@ -29,8 +29,8 @@ namespace Harjoitus16 {
 			// Luodaan tarvittavat muuttujat
 			Random rnd = new Random();
 			int a = rnd.Next(0, 100);
-			string UserInput;
-			int InputNumeric, Attempts = 1;
+			string userInput;
+			int inputNumeric, attempts = 1;
 			bool IsNumeric;
 
 			// Annetaan käyttöohjeet
@@ -41,26 +41,26 @@ namespace Harjoitus16 {
 			while (true) {
 				// Kysytään käyttäjältä arvaus ja varmistetaan että se on kokonaisluku
 				Console.Write(">");
-				UserInput = Console.ReadLine();
-				IsNumeric = int.TryParse(UserInput, out InputNumeric);
+				userInput = Console.ReadLine();
+				IsNumeric = int.TryParse(userInput, out inputNumeric);
 
 				/* 
 				 * Jos käyttäjä antoi numeron tarkistetaan onko se suurempi,
 				 * pienempi tai yhtäsuuri arvotun numeron kanssa.
 				 */
 				if(IsNumeric == true) {
-					if(a > InputNumeric) {
+					if(a > inputNumeric) {
 						// Käyttäjän arvo on liian pieni
 						Console.WriteLine("The number is larger.");
-					} else if (a < InputNumeric) {
+					} else if (a < inputNumeric) {
 						// Käyttäjän antama arvo on liian suuri
 						Console.WriteLine("The number is smaller.");
 					} else {
 						// Käyttäjä voitti
-						Console.WriteLine("You guessed the number in {0} attempts!", Attempts);
+						Console.WriteLine("You guessed the number in {0} attempts!", attempts);
 						return;
 					}
-					Attempts++; // Tässä lasketaan yritysten määrä
+					attempts++; // Tässä lasketaan yritysten määrä
 				} else {
 					// Yleinen virheviesti ja keino poistua ohjelmasta
 					Console.WriteLine("\nInvalid input!\nExiting...");

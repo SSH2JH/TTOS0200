@@ -23,16 +23,16 @@ namespace Harjoitus8 {
 		static void Main(string[] args)
 		{
 			// Kysytään numerot
-			int[] Number = new int[3];
+			int[] number = new int[3];
 			for (int i = 0; i < 3; i++) {
 				Console.Write("Please enter a number >");
-				Number[i] = int.Parse(Console.ReadLine());
+				number[i] = int.Parse(Console.ReadLine());
 			}
 			// Asetetaan taulukkoon saadut arvot pienimmästä suurimpaan
-			Array.Sort(Number);
+			Array.Sort(number);
 
 			// Tulostetaan taulukon viimeinen eli suurin arvo
-			Console.WriteLine("The highest number is {0}", Number[2]);
+			Console.WriteLine("The highest number is {0}", number[2]);
 		}
 	}
 }

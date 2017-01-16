@@ -27,27 +27,27 @@ namespace Harjoitus14
 		static void Main(string[] args)
 		{
 			// Luodaan tarvittavat muuttujat
-			int[] Grades = new int[5];
-			string Input;
-			int InputNumeric;
-			bool IsNumeric, IsStarted = false;
+			int[] grades = new int[5];
+			string input;
+			int inputNumeric;
+			bool isNumeric, isStarted = false;
 
 			// Tulostetaan tyhjä tuloskenttä ja käyttöohjeet
-			DistributionPrinter(Grades, IsStarted);
+			DistributionPrinter(grades, isStarted);
 			PrintHelp();
 
 			// Ohjelman pääsilmukka
 			while (true) {
 				// Otetaan käyttäjän syöte vastaan merkkijonona
 				Console.Write("Please enter the grade (-2 for help page) >");
-				Input = Console.ReadLine();
+				input = Console.ReadLine();
 
 				// Testataan oliko käyttäjän syöte kokonaisluku
-				IsNumeric = int.TryParse(Input, out InputNumeric);
+				isNumeric = int.TryParse(input, out inputNumeric);
 
 				// Ainoastaan kokonaisluvut väliltä [-2, 5] hyväksytään. Kaikki muut arvot hylätään
-				if(IsNumeric == true && InputNumeric <=5 && InputNumeric >= -2) {
-					switch (InputNumeric) {
+				if(isNumeric == true && inputNumeric <=5 && inputNumeric >= -2) {
+					switch (inputNumeric) {
 						case -1:
 							// Ohjelman lopetuskäsky
 							Console.WriteLine("\nExiting...");
@@ -62,10 +62,10 @@ namespace Harjoitus14
 							 * ja sen lohkon arvoa lisätään yhdellä
 							 * Samalla määritetään ohjelman suoritus alkaneeksi
 							 */
-							Grades[InputNumeric - 1]++;
-							IsStarted = true;
+							grades[inputNumeric - 1]++;
+							isStarted = true;
 							// Täällä tulostetaan arvosanajakauma muutoksen jälkeen (eli kun IsStarted = true)
-							DistributionPrinter(Grades, IsStarted);
+							DistributionPrinter(grades, isStarted);
 							break;
 					}
 				} else {

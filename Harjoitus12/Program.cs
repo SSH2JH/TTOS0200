@@ -26,16 +26,16 @@ namespace Harjoitus12
 		static void Main(string[] args)
 		{
 			// Luodaan integer-taulukko ja lukitaan sen pituus viiteen
-			int[] Numbers = new int[5];
+			int[] numbers = new int[5];
 			// Täytetään taulukko käyttäjän syötteellä
 			for(int i = 0; i < 5; i++) {
 				Console.Write("Please enter the {0}. number >", (i+1));
-				Numbers[i] = int.Parse(Console.ReadLine());
+				numbers[i] = int.Parse(Console.ReadLine());
 			}
 			// Tulostetaan käyttäjän antama syöte vastakkaisessa järjestyksessä
 			Console.Write("Numbers are in reverse: ");
-			for (int i = (Numbers.Length - 1); i >= 0; i--) {
-				Console.Write("{0} ", Numbers[i]);
+			for (int i = (numbers.Length - 1); i >= 0; i--) {
+				Console.Write("{0} ", numbers[i]);
 			}
 			Console.WriteLine();
 		}
