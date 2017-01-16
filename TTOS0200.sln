@@ -5,45 +5,45 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.csproj", "{4AEE11FF-F7AA-42CF-9DC4-6937082FBE6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "Lotto\Lotto.csproj", "{5D1945EF-9483-403B-95C3-64534D30D6FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "introduction\Lotto\Lotto.csproj", "{5D1945EF-9483-403B-95C3-64534D30D6FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus1", "Harjoitus1\Harjoitus1.csproj", "{FE717739-C097-4A30-AAFF-0B3125F7E285}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus1", "introduction\Harjoitus1\Harjoitus1.csproj", "{FE717739-C097-4A30-AAFF-0B3125F7E285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus2", "Harjoitus2\Harjoitus2.csproj", "{4CD33E2D-C7BA-4566-9D9F-49A7300AFD9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus2", "introduction\Harjoitus2\Harjoitus2.csproj", "{4CD33E2D-C7BA-4566-9D9F-49A7300AFD9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus3", "Harjoitus3\Harjoitus3.csproj", "{F4524821-457F-41D2-ABB8-2ABB443D7D87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus3", "introduction\Harjoitus3\Harjoitus3.csproj", "{F4524821-457F-41D2-ABB8-2ABB443D7D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus4", "Harjoitus4\Harjoitus4.csproj", "{EDB6A016-2649-4A58-9361-589F5B49CDC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus4", "introduction\Harjoitus4\Harjoitus4.csproj", "{EDB6A016-2649-4A58-9361-589F5B49CDC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus5", "Harjoitus5\Harjoitus5.csproj", "{672410B7-DEC4-4795-A7A5-C778B414519E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus5", "introduction\Harjoitus5\Harjoitus5.csproj", "{672410B7-DEC4-4795-A7A5-C778B414519E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus6", "Harjoitus6\Harjoitus6.csproj", "{7478381D-566A-4C77-93BC-F9F45F001842}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus6", "introduction\Harjoitus6\Harjoitus6.csproj", "{7478381D-566A-4C77-93BC-F9F45F001842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus7", "Harjoitus7\Harjoitus7.csproj", "{1B890C5B-FC33-41D3-A006-F4B53F86DDE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus7", "introduction\Harjoitus7\Harjoitus7.csproj", "{1B890C5B-FC33-41D3-A006-F4B53F86DDE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus8", "Harjoitus8\Harjoitus8.csproj", "{A9BA7A1A-E450-4BA4-AEA0-3061EEB638C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus8", "introduction\Harjoitus8\Harjoitus8.csproj", "{A9BA7A1A-E450-4BA4-AEA0-3061EEB638C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus9", "Harjoitus9\Harjoitus9.csproj", "{F582EF6C-F041-4409-9ECA-A31F1F5B4BCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus9", "introduction\Harjoitus9\Harjoitus9.csproj", "{F582EF6C-F041-4409-9ECA-A31F1F5B4BCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus10", "Harjoitus10\Harjoitus10.csproj", "{3860EBC5-D62F-4131-B953-DE5D5056432F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus10", "introduction\Harjoitus10\Harjoitus10.csproj", "{3860EBC5-D62F-4131-B953-DE5D5056432F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus11", "Harjoitus11\Harjoitus11.csproj", "{42DF6273-23D4-463E-B129-29AF2E0CAFD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus11", "introduction\Harjoitus11\Harjoitus11.csproj", "{42DF6273-23D4-463E-B129-29AF2E0CAFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus12", "Harjoitus12\Harjoitus12.csproj", "{33367B33-3485-4396-AB8F-440897831D34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus12", "introduction\Harjoitus12\Harjoitus12.csproj", "{33367B33-3485-4396-AB8F-440897831D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus13", "Harjoitus13\Harjoitus13.csproj", "{1F806447-7686-4801-9E96-025FC1C9E451}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus13", "introduction\Harjoitus13\Harjoitus13.csproj", "{1F806447-7686-4801-9E96-025FC1C9E451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus14", "Harjoitus14\Harjoitus14.csproj", "{87629946-9FC7-4419-83E1-F804047E75AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus14", "introduction\Harjoitus14\Harjoitus14.csproj", "{87629946-9FC7-4419-83E1-F804047E75AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus15", "Harjoitus15\Harjoitus15.csproj", "{AB06FFE8-915A-4E3A-BC88-6DB8FC814D17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus15", "introduction\Harjoitus15\Harjoitus15.csproj", "{AB06FFE8-915A-4E3A-BC88-6DB8FC814D17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus16", "Harjoitus16\Harjoitus16.csproj", "{CA775172-E853-46E8-AAB0-556B24CB3A64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus16", "introduction\Harjoitus16\Harjoitus16.csproj", "{CA775172-E853-46E8-AAB0-556B24CB3A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus17", "Harjoitus17\Harjoitus17.csproj", "{94ACE540-21AF-44C7-B2D8-3943CAFC0C47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus17", "introduction\Harjoitus17\Harjoitus17.csproj", "{94ACE540-21AF-44C7-B2D8-3943CAFC0C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus18", "Harjoitus18\Harjoitus18.csproj", "{6E909D53-AD46-47E8-A09B-9F01A1AE82A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus18", "introduction\Harjoitus18\Harjoitus18.csproj", "{6E909D53-AD46-47E8-A09B-9F01A1AE82A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus19", "Harjoitus19\Harjoitus19.csproj", "{97F94D5D-F88E-46B7-8FD3-BA8F0A91F96E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus19", "introduction\Harjoitus19\Harjoitus19.csproj", "{97F94D5D-F88E-46B7-8FD3-BA8F0A91F96E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "introduction", "introduction", "{D85C488F-7712-47DE-B463-6FFCD401B517}"
 EndProject
