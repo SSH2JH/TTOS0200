@@ -15,6 +15,9 @@ namespace OOP.Classes {
 			get { return humidity; }
 			set {
 				humidity = value;
+				if (humidity < 0 || humidity > 100) {
+					humidity = 0;
+				}
 			}
 		}
 	}

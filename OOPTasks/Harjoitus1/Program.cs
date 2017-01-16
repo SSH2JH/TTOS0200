@@ -34,9 +34,11 @@ namespace OOP.Tasks {
 			heater.Humidity = 50f;
 
 			// Näytetään konsolilla
-			Console.WriteLine("Heater is on {0}", heater.IsOn);
-			Console.WriteLine("Heater's temperature {0}", heater.Termperature);
-			Console.WriteLine("Heater's humidity {0}", heater.Humidity);
+			Console.WriteLine("Heater is on: {0}", heater.IsOn);
+			Console.WriteLine("Heater's temperature: {0} C", heater.Termperature);
+			Console.WriteLine("Heater's humidity: {0}", heater.Humidity);
+			heater.Humidity = 101;
+			Console.WriteLine("Heater's humidity: {0}", heater.Humidity);
 		}
 	}
 }
