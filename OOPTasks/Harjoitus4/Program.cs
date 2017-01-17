@@ -7,7 +7,7 @@
  *		Luo Vehicle-luokka annettujen tietojen mukaisesti.
  *		Toteuta Vehicle-luokan ohjelmointi sekä pääohjelma,
  *		jolla luot olion Vehicle-luokasta. Muuta olion arvoja ja tulosta olion arvoja konsolille. 
- * Pvm: 16.1.2017
+ * Pvm: 17.1.2017
  */
 
 using System;
