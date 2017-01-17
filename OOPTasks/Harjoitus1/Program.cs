@@ -4,19 +4,15 @@
  * Kurssi: TTOS0200
  * Harjoitus: OOP - Tehtävä 1
  * Kuvaus:
- *		Tee ohjelma, joka alustaa sovellukseen käyttöö seuraavan
- *		taulukon arvot = [1,2,33,44,55,68,77,96,100].
- *		Käy sovelluksessa taulukko läpi ja tulosta ruutuun "HEP"-sana
- *		aina kun taulukossa oleva luku on parillinen.
+ *		Tehtävänäsi on ohjelmoida kiukaan toiminta.
+ *		Kiuas pitää pystyä laittamaan päälle ja pois,
+ *		sekä sen lämpötilaa että sen antamaa kosteutta pitää
+ *		pystyä säätämään (arvoja ei ole rajattu).
  * Pvm: 16.1.2017
  */
 
 using System;
 using OOP.Classes;
-/*using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;*/
 
 namespace OOP.Tasks {
 	class Program {
