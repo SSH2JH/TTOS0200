@@ -37,6 +37,8 @@ namespace OOP.Tasks {
 			Console.WriteLine("Heater is on: {0}", heater.IsOn);
 			Console.WriteLine("Heater's temperature: {0} C", heater.Termperature);
 			Console.WriteLine("Heater's humidity: {0}", heater.Humidity);
+
+			// Humidity overflow
 			heater.Humidity = 101;
 			Console.WriteLine("Heater's humidity: {0}", heater.Humidity);
 		}
