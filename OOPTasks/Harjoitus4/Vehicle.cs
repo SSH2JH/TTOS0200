@@ -17,10 +17,10 @@ namespace OOP.Tasks {
 			Console.WriteLine("It's {0} tyred vehicle.", Tyres);
 		}
 		// Tulostaa olion arvot yhtenä mekkijonona ja palauttaa ne
-		public string ToString(Vehicle x)
+		public override string ToString()
 		{
 			// x edustaa tuntematonta oliota joka syötetään pääohjelmasta
-			return String.Format("{0}, {1}, {2}", x.Name, x.Speed, x.Tyres);
+			return String.Format("{0}, {1}, {2}", Name, Speed, Tyres);
 		}
 	}
 }

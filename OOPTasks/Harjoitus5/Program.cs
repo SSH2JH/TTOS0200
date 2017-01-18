@@ -26,42 +26,42 @@ namespace OOP.Tasks {
 			const int quantity = 5;
 
 			// Aloittaa olion taulukon ja sen sisällöt
-			Student[] student = new Student[quantity];
+			Student[] students = new Student[quantity];
 			for (int i = 0; i < quantity; i++) {
-				student[i] = new Student();
+				students[i] = new Student();
 			}
 
 			// Asettaa olion parametreille arvot
 
 			// 1. student
-			student[0].Name = "Tony Russel";
-			student[0].StudentId = "001";
-			student[0].MainSubject = "Programming";
-			student[0].IsActive = true;
+			students[0].Name = "Tony Russel";
+			students[0].StudentId = "001";
+			students[0].MainSubject = "Programming";
+			students[0].IsActive = true;
 			// 2. student
-			student[1].Name = "Lucy O'Doherty";
-			student[1].StudentId = "002";
-			student[1].MainSubject = "Psychology";
-			student[1].IsActive = true;
+			students[1].Name = "Lucy O'Doherty";
+			students[1].StudentId = "002";
+			students[1].MainSubject = "Psychology";
+			students[1].IsActive = true;
 			// 3. student
-			student[2].Name = "Matt Mathewson";
-			student[2].StudentId = "003";
-			student[2].MainSubject = "Math";
-			student[2].IsActive = false;
+			students[2].Name = "Matt Mathewson";
+			students[2].StudentId = "003";
+			students[2].MainSubject = "Math";
+			students[2].IsActive = false;
 			// 4. student
-			student[3].Name = "Ned Lannister";
-			student[3].StudentId = "004";
-			student[3].MainSubject = "History";
-			student[3].IsActive = true;
+			students[3].Name = "Ned Lannister";
+			students[3].StudentId = "004";
+			students[3].MainSubject = "History";
+			students[3].IsActive = true;
 			// 5. student
-			student[4].Name = "Some Random Lass";
-			student[4].StudentId = "005";
-			student[4].MainSubject = "Programming";
-			student[4].IsActive = true;
+			students[4].Name = "Some Random Lass";
+			students[4].StudentId = "005";
+			students[4].MainSubject = "Programming";
+			students[4].IsActive = true;
 
 			// Tulostaa tietokannan, siis taulukon
 			for (int i = 0; i < quantity; i++) {
-				student[i].PrintStudent();
+				Console.WriteLine(students[i].PrintStudent());
 			}
 		}
 	}

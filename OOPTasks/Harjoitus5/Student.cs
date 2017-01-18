@@ -13,13 +13,13 @@ namespace OOP.Tasks {
 		public bool IsActive { get; set; }
 
 		// Tulostaa parametrit
-		public void PrintStudent()
+		public string PrintStudent()
 		{
-			Console.WriteLine("\nName: {0}", Name);
-			Console.WriteLine("ID: {0}", StudentId);
-			Console.WriteLine("Main Subject: {0}", MainSubject);
-			Console.WriteLine("Attending: {0}", IsActive);
-			Console.WriteLine("--------------------------------");
+			return ("\nName: " + Name +
+				"\nID: " + StudentId + 
+				"\nMain Subject: " + MainSubject +
+				"\nAttending: " + IsActive +
+				"\n---------------------------------");
 		}
 	}
 }
