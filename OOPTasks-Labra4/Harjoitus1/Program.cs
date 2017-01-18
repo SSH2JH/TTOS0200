@@ -9,7 +9,7 @@
  *		siirtämään hissi haluttuun kerrokseen (tässä tapauksessa ohjelma kertoo
  *		käyttäjälle missä kerroksessa hissi on). Muista, että Dynamon hissi voi olla vain kerroksissa 1-5.
  *		Käytä Hissi-luokassa get- ja set-aksessoreita suojamaan olion tila.
- * Pvm: 17.1.2017
+ * Pvm: 18.1.2017
  */
 
 using System;
