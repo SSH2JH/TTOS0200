@@ -14,16 +14,28 @@
  */
 
 using System;
-/*using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;*/
 
 namespace OOP.Tasks {
 	class Program {
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			AmplifierFunc();
+		}
+
+		static void AmplifierFunc()
+		{
+			Amplifier amp = new Amplifier("Yamaha", 0);
+
+			Console.WriteLine(amp.PrintStatus());
+
+			amp.AmpVolume = 50;
+			Console.WriteLine(amp.PrintStatus());
+
+			amp.AmpVolume = 150;
+			Console.WriteLine(amp.PrintStatus());
+
+			amp.AmpVolume = -60;
+			Console.WriteLine(amp.PrintStatus());
 		}
 	}
 }
