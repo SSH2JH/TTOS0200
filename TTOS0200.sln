@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus5", "OOPTasks-Labr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus6", "OOPTasks-Labra4\Harjoitus6\Harjoitus6.csproj", "{AB18910F-E24D-4079-8C59-D4B449D736CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labra5", "Labra5", "{E1FAD75D-2A56-4ADE-9AA2-2502513E9FF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,7 @@ Global
 		{5D1945EF-9483-403B-95C3-64534D30D6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE717739-C097-4A30-AAFF-0B3125F7E285}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4CD33E2D-C7BA-4566-9D9F-49A7300AFD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
