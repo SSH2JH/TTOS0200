@@ -14,14 +14,11 @@ namespace OOP.Tasks {
 			get { return temperature; }
 			set {
 				temperature = value;
-				if (IsOn == false) {
+				if (IsOn == false || temperature < 0) {
 					temperature = 0;
 				}
 				else if (temperature > 8) {
 					temperature = 8;
-				}
-				else if (temperature < 0) {
-					temperature = 0;
 				}
 			}
 		}
