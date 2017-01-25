@@ -25,12 +25,18 @@ namespace OOP.Tasks {
 
 			FridgeItem milk = new FridgeItem { Name = "Milk" };
 			FridgeItem bread = new FridgeItem { Name = "Bread" };
+			FridgeItem beer = new FridgeItem { Name = "Polarized Karhu"};
 			Console.WriteLine(fridge1.AddItem(milk));
 			Console.WriteLine(fridge1.AddItem(milk));
 			Console.WriteLine(fridge1.AddItem(milk));
 			Console.WriteLine(fridge1.AddItem(bread));
 			Console.WriteLine(fridge1.AddItem(bread));
 			Console.WriteLine(fridge1.AddItem(bread));
+
+			for (int i = 0; i < 18; i++) {
+				Console.WriteLine(fridge1.AddItem(beer));
+			}
+
 			Console.WriteLine(fridge1.PrintAll());
 		}
 	}
