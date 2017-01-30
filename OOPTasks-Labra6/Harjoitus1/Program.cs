@@ -17,14 +17,13 @@ namespace OOP.Tasks.T1 {
 			crowd.AddPerson(prs1);
 			crowd.AddPerson(prs2);
 			crowd.AddPerson(prs3);
-
 			foreach (Person x in crowd.PersonList) {
 				Console.WriteLine("{0}", x.ToString());
 			}
 			// TODO ask the client for person id, search it and print it (FINISHED)
 			Console.Write("Please enter person ID >");
 			string a = Console.ReadLine();
-			Console.WriteLine(String.Format("\nSearch result: " + crowd.GetPersonID(a)));
+			Console.WriteLine(String.Format("{0}", crowd.GetPersonID(a)));
 		}
 	}
 }
