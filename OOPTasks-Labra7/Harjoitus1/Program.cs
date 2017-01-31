@@ -13,10 +13,6 @@
 
 using System;
 using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OOP.Tasks {
 	class Program {
@@ -26,15 +22,20 @@ namespace OOP.Tasks {
 		}
 		static void InputQuery()
 		{
-			Console.Write("Give a text line (enter ends) >");
 			string input;
+
+			// Creates outputFile object
 			System.IO.StreamWriter outputFile = null;
-			input = Console.ReadLine();
 			try {
+				// Initializes outputFile object
 				outputFile = new System.IO.StreamWriter(@"test.txt");
-				while (input != "") {
+				while (true) {
 					Console.Write("Give a text line (enter ends) >");
 					input = Console.ReadLine();
+					// ends the loop
+					if (input == "")
+						break;
+					// Saves the information
 					outputFile.WriteLine(input);
 				}
 			}
