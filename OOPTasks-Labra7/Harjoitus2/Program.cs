@@ -2,7 +2,7 @@
  * Tekijä: Juuso Huppunen
  * AsioID: K8960
  * Kurssi: TTOS0200
- * Harjoitus: OOP Labra 7 - Tehtävä 1 PLACEHOLDER
+ * Harjoitus: OOP Labra 7 - Tehtävä 2 PLACEHOLDER
  * Kuvaus:
  *		 Tee ohjelma, joka lukee yksinkertaisesta tekstitiedosto nimet.txt henkilöitten nimiä
  *		 ja kertoo montako nimeä löytyy ja montako kertaa kukin nimi esiintyy.
