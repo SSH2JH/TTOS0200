@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Harjoitus2")]
+[assembly: AssemblyTitle("Harjoitus1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Harjoitus2")]
+[assembly: AssemblyProduct("Harjoitus1")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e52e9b83-1d8c-47e6-aa4a-c00b22192ca8")]
+[assembly: Guid("d27062ec-8cc0-4e1d-b611-509707711542")]
 
 // Version information for an assembly consists of the following four values:
 //

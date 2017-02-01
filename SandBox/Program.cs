@@ -2,40 +2,26 @@
 
 namespace SandBox
 {
+	interface ICalculator {
+		int Add(int number1, int number2);
+		int Multiply(int number1, int number2);
+	}
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			// Laskutoimituksia taulokon arvoilla 
-			Calculations();
-			// Array of string
-			ShowNames();
 		}
-		static void ShowNames()
+	}
+
+	public class Calculator : ICalculator {
+		public int Add(int n1, int n2)
 		{
-			// Luodaan taulukko
-			string[] Names = new string[5];
-
-			// Kysytään 5 nimeä
-			for (int i = 0; i <= 4; i++) {
-				Console.Write("Please enter {0}. name: ", (i + 1));
-				Names[i] = Console.ReadLine();
-			}
-
-			// Asetetaan taulukon arvot oikeaan järjestykseen
-			Array.Sort(Names);
-
-			// Tulostetaan järjestetty taulukko
-			for (int i = 0; i <= 4; i++) {
-				Console.Write(Names[i] + " ");
-			}
-
-			Console.WriteLine("\nOhjelma suoritettu onnistuneesti!");
+			return n1 + n2;
 		}
-		static void Calculations()
+
+		public int Multiply(int n1, int n2)
 		{
-			int[] nums = { 2, 3, 6 };
-			Console.Write("The sum of {0} * {1} * {2} is: {3}\n", nums[0], nums[1], nums[2], (nums[0] * nums[1] * nums[2]));
+			return n1 + n2;
 		}
 	}
 }
