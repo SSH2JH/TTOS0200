@@ -14,9 +14,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OOP.Tasks {
 	class Program {
@@ -27,7 +24,8 @@ namespace OOP.Tasks {
 		static void DiceThrow()
 		{
 			Dice diceThrow = new Dice();
-			List<int> throws = new List<int>();
+			// If I decided to make organized list
+			//List<int> throws = new List<int>();
 			string input;
 			bool isNumeric;
 			int inputNumeric;
